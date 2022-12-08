@@ -6,16 +6,17 @@ channels:
 dependencies:
 - python=3.6.9
 - pip>=21.0,<22
-- pytorch==1.7.1
+- pytorch==1.10.2
 - torchvision==0.8.2
 - torchaudio==0.7.2
-- cudatoolkit=11.0
+- cudatoolkit==11.3.1
 - nvidia-apex==0.1.0
 - scikit-image
 - opencv
 - cupy
 - pytorch-lightning
 - pip:
+  - azureml.core==1.47.0
   - matplotlib>=3.3,<3.4
   - psutil>=5.8,<5.9
   - tqdm>=4.59,<4.60

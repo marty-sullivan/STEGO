@@ -14,6 +14,8 @@ import torch.multiprocessing
 import seaborn as sns
 from pytorch_lightning.callbacks import ModelCheckpoint
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 
